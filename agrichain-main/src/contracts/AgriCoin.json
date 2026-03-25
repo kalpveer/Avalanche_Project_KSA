@@ -1,0 +1,16 @@
+{
+  "contractAddress": "0x6A2d744D6505Cd3Fb84455aE9d8d142f1531a6b7",
+  "abi": [
+    "function name() view returns (string)",
+    "function symbol() view returns (string)",
+    "function decimals() view returns (uint8)",
+    "function totalSupply() view returns (uint256)",
+    "function balanceOf(address) view returns (uint256)",
+    "function transfer(address, uint256) returns (bool)",
+    "function mint(address, uint256) external",
+    "function owner() view returns (address)",
+    "event Transfer(address indexed from, address indexed to, uint256 value)"
+  ],
+  "fujiRpc": "https://api.avax-test.network/ext/bc/C/rpc",
+  "chainId": 43113
+}

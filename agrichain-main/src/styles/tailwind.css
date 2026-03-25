@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Colors - Minimalistic Palette */
+    --color-background: #FFFFFF;
+    --color-foreground: #0F172A; /* Slate 900 */
+    --color-border: #F1F5F9; /* Slate 100 */
+    --color-input: #FFFFFF;
+    --color-ring: #059669; /* Emerald 600 */
+    
+    /* Card Colors */
+    --color-card: #FFFFFF;
+    --color-card-foreground: #0F172A;
+    
+    /* Muted Colors */
+    --color-muted: #F8FAFC; /* Slate 50 */
+    --color-muted-foreground: #64748B; /* Slate 500 */
+    
+    /* Primary Colors - Professional Agri-Tech Green */
+    --color-primary: #059669; /* Emerald 600 */
+    --color-primary-foreground: #FFFFFF;
+    
+    /* Secondary & Accents */
+    --color-secondary: #334155; /* Slate 700 */
+    --color-secondary-foreground: #FFFFFF;
+    
+    --color-accent: #F59E0B; /* Amber 500 */
+    --color-accent-foreground: #0F172A;
+    
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-error: #EF4444;
+
+    --radius: 8px;
+  }
+
+  .dark {
+    --color-background: #0F172A;
+    --color-foreground: #F8FAFC;
+    --color-border: #1E293B;
+    --color-card: #1E293B;
+    --color-card-foreground: #F8FAFC;
+    --color-muted: #1E293B;
+    --color-muted-foreground: #94A3B8;
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-heading { font-family: 'Inter', sans-serif; }
+  .font-body { font-family: 'Inter', sans-serif; }
+  .font-caption { font-family: 'Inter', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+}
