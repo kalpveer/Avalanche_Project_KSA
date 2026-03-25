@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd agrichain-main && npm install && npm run build",
+  "outputDirectory": "agrichain-main/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
