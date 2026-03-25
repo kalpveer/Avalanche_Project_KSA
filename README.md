@@ -8,6 +8,16 @@
 
 ---
 
+## 👥 Team
+
+| Name | Email |
+|---|---|
+| **Veer Kalp Manish** | 📧 kalpveer2@gmail.com |
+| **Aaryamaan Champaneria** | 📧 aaryamaannc15@gmail.com |
+| **Shreya Jadhav** | 📧 shreya09.academic@gmail.com |
+
+---
+
 ## 📌 Overview
 
 **AgriChain** is a blockchain-powered agricultural supply chain platform designed to ensure **transparency, traceability, and trust** across the entire lifecycle of agricultural products.
@@ -257,16 +267,6 @@ It empowers:
 - 🌾 **Farmers** → Fair visibility & direct market access
 - 🚚 **Distributors** → Reliable, verified supply data
 - 🛒 **Consumers** → Full transparency from field to shelf
-
----
-
-## 👥 Team
-
-| Name | Email |
-|---|---|
-| **Veer Kalp Manish** | 📧 kalpveer2@gmail.com |
-| **Aaryamaan Champaneria** | 📧 aaryamaannc15@gmail.com |
-| **Shreya Jadhav** | 📧 shreya09.academic@gmail.com |
 
 ---
 
